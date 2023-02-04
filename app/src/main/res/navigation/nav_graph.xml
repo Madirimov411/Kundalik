@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/muhimFragment">
+
+    <fragment
+        android:id="@+id/muhimFragment"
+        android:name="com.uzb7.kundalik.MuhimFragment"
+        android:label="fragment_muhim"
+        tools:layout="@layout/fragment_muhim" />
+    <fragment
+        android:id="@+id/darsJadvaliFragment"
+        android:name="com.uzb7.kundalik.DarsJadvaliFragment"
+        android:label="fragment_dars_jadvali"
+        tools:layout="@layout/fragment_dars_jadvali" />
+    <fragment
+        android:id="@+id/jurnallarFragment"
+        android:name="com.uzb7.kundalik.JurnallarFragment"
+        android:label="fragment_jurnallar"
+        tools:layout="@layout/fragment_jurnallar" />
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.uzb7.kundalik.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" />
+</navigation>
